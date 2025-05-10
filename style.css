@@ -174,4 +174,136 @@ body {
     display: block;
   }
 }
+/* Projects Page */
+.projects-page {
+  padding: 2rem;
+  background-color: #f8f8f8;
+}
 
+.project-card {
+  display: flex;
+  gap: 1.5rem;
+  background: white;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-info h3 {
+  margin: 0;
+  color: #333;
+}
+
+.project-info p {
+  margin: 0.5rem 0;
+}
+
+.project-info a {
+  margin-top: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Book Page Styles */
+.book-section {
+  padding: 2rem;
+  background-color: #f3f3f3;
+}
+.book-card {
+  display: flex;
+  gap: 1.5rem;
+  background: #fff;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.book-card img {
+  width: 160px;
+  height: auto;
+  border-radius: 8px;
+}
+.book-info h3 {
+  margin: 0;
+}
+.book-info a {
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+/* Poetry Page Styles */
+.poetry-section {
+  padding: 2rem;
+  background-color: #fef6e4;
+}
+.poem-card {
+  background: white;
+  border-left: 6px solid #ffa500;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.poem-card h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.poem-card blockquote {
+  font-style: italic;
+  color: #555;
+  line-height: 1.6;
+}
+/* Skills Section */
+.skills-section {
+  padding: 2rem;
+  background-color: #eef6fa;
+}
+.skill-block {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.skill-block h3 {
+  margin-bottom: 0.5rem;
+  color: #0077cc;
+}
+.skill-block p {
+  color: #444;
+}
+
+.mini-project {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+.mini-project img {
+  width: 100px;
+  border-radius: 6px;
+}
+.mini-project a {
+  display: inline-block;
+  margin-top: 0.3rem;
+  background: #007bff;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
